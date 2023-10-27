@@ -1,0 +1,65 @@
+.container {
+  box-sizing: border-box;
+  height: 500px;
+  width: 600px;
+  background-image: linear-gradient(to right bottom, #1356b8, #094a9c, #063e80, #073266, #09264c);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 3px;
+  transition: all 0.9s;
+}
+
+.container:hover {
+  box-shadow: -5px 0px 55px 5px rgba(7, 50, 102, 0.86);
+  -webkit-box-shadow: -5px 0px 40px 5px rgba(7, 50, 102, 0.86);
+  -moz-box-shadow: -5px 0px 55px 5px rgba(7, 50, 102, 0.86);
+}
+
+input[type=number] {
+  box-sizing: border-box;
+  width: 96%;
+  font-weight: 600;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+select {
+  box-sizing: border-box;
+  width: 96%;
+  font-weight: 600;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.outputBox {
+  word-wrap: break-word;
+  padding: 10px;
+  height: 200px;
+  width: 300px;
+  max-width: 300px;
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+}
+
+.btn {
+  background-image: linear-gradient(to right bottom, #1356b8, #094a9c, #063e80, #073266, #09264c);
+  font-weight: 800;
+  color: #fff;
+  width: 120px;
+}
+
+@media screen and (max-width:600px) {
+  .container {
+    width: 99vw;
+  }
+}
