@@ -55,7 +55,7 @@ npm install
 4. Start the development server:
 
 ```
-npm start
+npm run dev
 ```
 
 The app should now be running locally on `http://localhost:3000`.
